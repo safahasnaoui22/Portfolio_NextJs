@@ -5,8 +5,25 @@ import Link from "next/link";
 import { useRef } from "react";
 
 const items = [
-  {
+
+   {
     id: 1,
+    color: "from-red-300 to-blue-300",
+    title: "",
+    desc: "Designed a standout phone website with expert use of Three.js",
+    img: "/phone.png",
+    link: "https://pocketpulse1.netlify.app/",
+  },
+   {
+    id: 2,
+    color: "from-red-300 to-blue-300",
+    title: "",
+    desc: "Developed a dynamic hotel website utilizing React.js for a seamless user experience.",
+    img: "/hotel.png",
+    link: "https://abousofianehotel.netlify.app/",
+  },
+  {
+    id: 3,
     color: "from-red-300 to-blue-300",
     title: "",
     desc: "I skillfully crafted this captivating portfolio leveraging the power of React.js, showcasing my dedication to excellence in web development",
@@ -14,7 +31,7 @@ const items = [
     link: "https://safadk.netlify.app/",
   },
   {
-    id: 2,
+    id: 4,
     color: "from-blue-300 to-violet-300",
     title: "",
     desc: "My archived portfolio created using React.js & Sanity",
@@ -22,7 +39,7 @@ const items = [
     link: "https://safadkhili25.netlify.app/",
   },
   {
-    id: 3,
+    id: 5,
     color: "from-violet-300 to-purple-300",
     title: "",
     desc: "I engineered an immersive E-Commerce website utilizing the dynamic capabilities of React.js, delivering a seamless online shopping experience",
@@ -30,7 +47,7 @@ const items = [
     link: "https://sleepy-perlman-92cbca.netlify.app/",
   },
   {
-    id: 4,
+    id: 6,
     color: "from-purple-300 to-red-300",
     title: " ",
     desc : "Let's build something amazing",
