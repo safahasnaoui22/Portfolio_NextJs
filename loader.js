@@ -1,6 +1,8 @@
-export default function cloudinaryLoader({ src, width, quality }) {
-    const params = ['f_auto', 'c_limit', `w_${width}`, `q_${quality || 'auto'}`]
-    return `https://res.cloudinary.com/demo/image/upload/${params.join(
-      ','
-    )}${src}`
+export default function myImageLoader({
+  src, width, quality
+}) {
+  if (src.startsWith('https://images.pexels.com')) {
+    return src;
   }
+  return `https://nextjsportfolio.com/${src}?w=${width}&q=${quality || 75}`;
+}
