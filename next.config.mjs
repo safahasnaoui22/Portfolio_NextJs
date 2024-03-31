@@ -1,15 +1,11 @@
 const nextConfig = {
-  output: 'export',
   images: {
-    loader: "custom",
-    loaderFile: "./loader.js",
-    // Specify remote patterns using objects with 'protocol' and 'hostname' properties
+    
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "images.pexels.com", // Use 'hostname' instead of 'host'
+        hostname: "images.pexels.com",
       },
-      // Add additional domains here if needed
       {
         protocol: "https",
         hostname: "scontent.fnbe1-2.fna.fbcdn.net",
